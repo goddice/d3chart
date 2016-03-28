@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/barChart.css">
+    <link rel="stylesheet" href="css/lineChart.css">
+    <title>Viewer</title>
+</head>
+<body>
+<script src="libs/d3/d3.min.js"></script>
+<script src="libs/jquery/jquery-1.12.2.min.js"></script>
+<script src="libs/jquery-csv/jquery.csv.min.js"></script>
+<script src="jquery.d3charts.js"></script>
+<script src="example.js"></script>
+
+<form>
+    <p>
+        data url: <input type="text" id="url" size="80" placeholder="data/football.json">
+        <input type="radio" name="data-type" id="json">JSON
+        <input type="radio" name="data-type" id="csv">CSV
+    </p>
+</form>
+
+<div id="struct"></div>
+<div id="graph"></div>
+
+</body>
+</html>
